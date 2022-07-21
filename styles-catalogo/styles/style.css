@@ -1,0 +1,452 @@
+:root {
+    --red: #ff0000;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+
+html{
+    text-shadow: var(--black);
+    scroll-behavior: smooth;
+    background-color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    /* max-width: : 1000px;
+    background-image: url("../mediaa/fondo2.jpg"); */
+}
+
+body{font-family: 'Roboto', 
+    sans-serif; margin: 0;
+    background: var(--bg);
+    color: var(--fontColor);
+}
+
+h1{ font-size: 3.5em;}
+
+h2{font-size: 2.7em;}
+
+h3{text-shadow: var(--black);}
+
+ul{list-style: nome;}
+
+li{
+    font-size: 1.35em;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0,0, 0, 0.5);
+    background-color: var(--white);
+}
+
+button:hover {
+    background-color: #4d4d4d;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    margin-left: 90%;
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.color-acento{
+    color: var(--black);
+}
+
+header{
+    background: rgb(30, 30, 30);
+    
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    color: var(--white);
+    font-size: 1.8em;
+}
+header .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    color: var(--red);
+}
+#catalogo {
+    text-shadow: var(--black);
+    text-align:  center;
+    margin: auto;
+    text-align: -webkit-center;
+    font: -webkit-mini-control;
+    padding: 9%;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+}
+
+#catalogo .conteiner{
+    padding: 100px 0px;
+    
+}
+
+#catalogo h2{
+    margin-top: auto;
+    font-size: 4em;
+}
+
+#catalogo h3{
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+#catalogo p{
+    display: none;
+}
+
+#catalogo a button{
+    margin-top: 0%;
+}
+
+#catalogo .carta{
+    background-position: center center;
+    background-size: 100%;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    color: var(--white);
+}
+
+#catalogo .carta2{
+    background-position: center center;
+    background-size: 100%;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    color: var(--white);
+}
+
+#catalogo .carta3{
+    background-position: center center;
+    background-size: 100%;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    color: var(--white);
+}
+
+#catalogo .carta4{
+    background-position: center center;
+    background-size: 100%;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    color: var(--white);
+}
+
+.carta:first-child{
+    text-decoration-color: var(--black);
+    text-shadow: var(--black);
+    height: 301px;
+    left: 0px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/01.jpg);
+} 
+
+.carta:nth-child(2){
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/02.jpg);
+}
+
+.carta:nth-child(3){
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/03.jpg);
+}
+
+.carta2:first-child{
+    text-decoration-color: var(--black);
+    text-shadow: var(--black);
+    height: 301px;
+    left: 0px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/04.jpg);
+}
+
+.carta2:nth-child(2){
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/05.jpg);
+}
+
+.carta2:nth-child(3){
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/06.jpg);
+}
+
+.carta3:first-child{
+    text-decoration-color: var(--black);
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/07.jpg);
+}
+
+.carta3:nth-child(2){
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/08.jpg);
+}
+
+.carta3:nth-child(3){
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/09.jpg);
+}
+
+.carta4:first-child{
+    text-decoration-color: var(--black);
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/10.jpg);
+}
+
+.carta4:nth-child(2){
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/11.jpg);
+}
+
+.carta4:nth-child(3){
+    text-shadow: var(--black);
+    left: 0px;
+    height: 301px;
+    width: 152px;
+    margin-right: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,
+    url(/images/12.jpg);
+}
+
+
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+
+    header .conteiner{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: ROW;
+        padding-bottom: 0;
+        padding-right: 15px;
+    }
+    #catalogo .secciones{
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+    }
+
+    #catalogo .secciones2{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #catalogo .secciones3{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #catalogo .secciones4{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #catalogo p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #catalogo h3{
+        margin-top: 0;
+    }
+
+    #catalogo .carta{
+        padding: 55px;
+        background-color: rgb(80,80,80);
+        background-repeat: repeat;
+        color: var(--white);
+    }
+
+    #catalogo .carta2{
+        padding: 55px;
+        background-color: rgb(80,80,80);
+        background-repeat: repeat;
+        color: var(--white);
+    }
+
+    #catalogo .carta3{
+        padding: 55px;
+        background-color: rgb(80,80,80);
+        background-repeat: repeat;
+        color: var(--white);
+    }
+
+    #catalogo .carta4{
+        padding: 55px;
+        background-color: rgb(80,80,80);
+        background-repeat: repeat;
+        color: var(--white);
+    }
+
+}
+

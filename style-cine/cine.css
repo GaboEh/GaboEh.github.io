@@ -1,0 +1,142 @@
+:root {
+    --red: #ff0000;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+html{
+    text-shadow: #000000;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    /* max-width: : 1000px;
+    background-image: url("../mediaa/fondo2.jpg"); */
+}
+
+body{font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    background: var(--bg);
+    color: var(--fontColor);
+}
+
+h1{ font-size: 3.5em;}
+
+h2{font-size: 2.7em;}
+
+h3{text-shadow: #000000;}
+
+ul{list-style: nome;}
+
+li{
+    font-size: 1.35em;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0,0, 0, 0.5);
+    background-color: #ffffff;
+}
+
+button:hover {
+    background-color: #4d4d4d;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    margin-left: 90%;
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.color-acento{
+    color:rgb(0, 0, 0)
+}
+
+header{
+    background: rgb(30, 30, 30);
+    
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    color: #ffffff;
+    font-size: 1.8em;
+}
+header .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+}
+
+body{
+    text-align: center;
+}
+
+.cine{
+    padding: 50px 60px;
+}
+
+h3{
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+@media (min-width: 720px){
+    header{
+        width: 100%;
+    }
+
+    header .conteiner{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: ROW;
+        padding-bottom: 0;
+        padding-right: 15px;
+    }
+}

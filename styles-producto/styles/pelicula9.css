@@ -1,0 +1,193 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    /* max-width: : 1000px;
+    background-image: url("../mediaa/fondo2.jpg"); */
+}
+
+body {font-family: 'Roboto', sans-serif; margin: 0;}
+
+h1{ font-size: 3.5em;}
+
+h2{font-size: 2.7em;}
+
+ul{list-style: nome;}
+
+li{
+    font-size: 1.35em;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0,0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.color-acento{
+    color:rgb(0, 0, 0)
+}
+
+header{
+    background: rgb(30, 30, 30);
+    
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    color: #ffffff;
+    font-size: 1.8em;
+}
+header .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: auto;
+}
+#producto .conteiner{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.separador{
+    background: rgb(30, 30, 30);
+}
+
+.separador2{
+    background: rgb(30, 30, 30);
+}
+
+.separador3{
+    background: rgb(30, 30, 30);
+}
+
+#ficha{
+    background: rgb(217, 231, 10);
+}
+
+.ficha-tecnica{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.sub-selection{
+    padding: 100px 100px;
+}
+
+.copy{
+    color: white;
+    display: flex;
+    margin: auto;
+}
+
+@media (min-width: 1080px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+
+    header .conteiner{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: ROW;
+        padding-bottom: 0;
+        padding-right: 15px;
+    }
+
+    #producto .conteiner{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #producto .texto{
+        width: 60%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #producto h2{
+        margin-top: 0px;
+    }
+    
+    #producto .img-container{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url(/images/09.jpg);
+        background-size: 100%;
+        background-position: center center;
+        height: 500px;
+        width: 40%;
+    }
+
+    #ficha {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 20px 20px;
+    }
+
+    .ficha-tecnica{
+        width: 60%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 200px 12px;
+        margin: auto;
+        border-color: rgb(30, 30, 30);
+    }
+
+}
